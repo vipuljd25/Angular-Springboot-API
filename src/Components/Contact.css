@@ -1,0 +1,95 @@
+.contact-us-container {
+    background-image: url('https://apexmoon.com/img/contact-us-bg.jpg');
+    background-size: cover;
+    background-position: center center;
+    border-radius: 60px;
+    padding: 10px;
+  }
+  
+  .section-header {
+    color: #fff;
+    text-align: center;
+  }
+  
+  .con {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .contact-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .contact-info,
+  .contact-form {
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .contact-info-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .contact-info-icon {
+    margin-right: 10px;
+  }
+  
+  .contact-info-content {
+    flex: 1;
+  }
+  
+  .contact-form {
+    padding: 10px;
+    border-radius: 10px;
+    width: 50%; 
+    box-sizing: border-box; 
+    display: grid;
+    grid-template-rows: repeat(3, auto); 
+    row-gap: 5px; 
+  }
+  
+  .contact-form label {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%; 
+    padding: 10px; 
+    box-sizing: border-box; 
+  }
+  
+  .contact-form button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  
+  .alert {
+    margin-top: 20px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .alert.success {
+    background-color: #4caf50;
+    color: #fff;
+  }
+  
+  .alert.error {
+    background-color: #f44336;
+    color: #fff;
+  }
+  /* //////////////////////////////////////// */
+
+  

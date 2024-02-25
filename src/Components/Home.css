@@ -1,0 +1,89 @@
+h2 {
+    color: white;
+    transition: color 0.3s ease;
+  }
+  h2:hover,
+.lead:hover {
+  color: rgb(216, 206, 221); 
+}
+
+  .lead {
+    font-size: 1.2rem;
+    color: white;
+  }
+  
+  /* Tab content styling */
+  .tab-content {
+    position: relative;
+  }
+  
+  .tab-pane img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  /* Nav pills styling */
+  .nav-pills {
+    margin-top: 20px;
+  }
+  
+  .nav-pills .nav-item {
+    margin-bottom: 10px;
+  }
+  
+  .hover-nav-link:hover {
+    text-decoration: none;
+  }
+  
+  /* Tab links styling */
+  .nav-pills .nav-link {
+    color: #333;
+    background-color: #fff;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+  }
+  
+  .nav-pills .nav-link.active {
+    background-color: rgb(51, 44, 44);
+  }
+  
+  /* Tab content details styling */
+  .text-orange {
+    color: #ff7f50;
+  }
+  
+  /* Responsive layout */
+  @media (max-width: 991px) {
+    .tab-pane,
+    .nav-pills,
+    .nav-pills .nav-item,
+    .nav-pills .nav-link {
+      width: 100%;
+    }
+  
+    .col-lg-6 {
+      margin-top: 20px;
+    }
+  }
+  
+  /* Responsive typography adjustments */
+  @media (max-width: 767px) {
+    h2 {
+      font-size: 1.8rem;
+    }
+  
+    .lead {
+      font-size: 1rem;
+    }
+  
+    .nav-pills .nav-link {
+      font-size: 0.9rem;
+    }
+  }
+  
+  /* Additional styling for small screens */
+  @media (max-width: 575px) {
+    .nav-pills .nav-link {
+      padding: 10px;
+    }
+  }
